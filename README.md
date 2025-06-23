@@ -7,3 +7,5 @@ Implemented a validation engine to analyze password strength against five securi
 Developed a rating system that provides clear, intuitive feedback to the user (e.g., "Weak", "Medium", "Strong") based on the final security score.
 
 Technologies: C++
+
+Author: TAWHID 
