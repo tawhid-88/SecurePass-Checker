@@ -31,7 +31,7 @@ bool hasSpecialChar(const string& password) {
     return false;
 }
 int main() {
-    cout << "Here is our secure password checker!" << endl;
+    cout << "Here is our secure password checker!" << endl<< endl;
     string password;
     cout << "Please enter your password: ";
     cin >> password;
@@ -52,15 +52,15 @@ int main() {
     if (hasSpecialChar(password)) {
         strength++;
     }
-    cout << "Password strength: " << strength << "/5" << endl;
+    cout << "Password strength: " << strength << "/5" << endl<< endl;
 
     if(strength < 3) {
-        cout << "Your password is weak. Please consider improving it." << endl;
+        cout << "Your password is weak. Please consider improving it." << endl<< endl;
     } else if (strength == 3 || strength == 4) {
-        cout << "Your password is moderate. It could be improved further." << endl;
+        cout << "Your password is moderate. It could be improved further." << endl<< endl;
     }
     else  {
-        cout << "Your password is strong!" << endl;
+        cout << "Your password is strong!" << endl<< endl;
     }
     cout << "Thank you for using our secure password checker!" << endl;
     return 0;
